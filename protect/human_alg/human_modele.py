@@ -39,7 +39,7 @@ print(failure_row[['flipper_length_mm', 'culmen_depth_mm', target_name, 'human_p
 
 
 # Print a scatter plot showing correct vs incorrect predictions.
-os.makedirs("example/e_ml_model/plots", exist_ok=True)
+os.makedirs("human_algorithm/plots", exist_ok=True)
 
 plt.figure(figsize=(8, 6))
 sns.scatterplot(
@@ -57,5 +57,5 @@ plt.xlabel('Flipper Length (mm)')
 plt.ylabel('Culmen Depth (mm)')
 plt.legend(title='Prediction Correct')
 plt.grid(True)
-plt.savefig('example/e_human_algorithm/plots/human_model_training_results.png', dpi=150)
+plt.savefig('human_algorithm/plots/human_model_training_results.png', dpi=150)
 plt.close()
