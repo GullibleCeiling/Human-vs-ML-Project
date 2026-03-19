@@ -56,29 +56,29 @@ From the summary tables and visualizations, it appeared that culmen length could
 
 ### Confusion Matrix
 
-Accuracy: ?
+Accuracy: 56.31%
 
 | Actual \ Predicted | Class 1 | Class 2 | Class 3 |
 |-------------------|---------|---------|---------|
-| **Class 1**       |         |         |         |
-| **Class 2**       |         |         |         |
-| **Class 3**       |         |         |         |
+| **Class 1**       |   12    |    30   |     3   |
+| **Class 2**       |    4    |   13    |     4   |
+| **Class 3**       |    0    |    4    |    33   |
 
-One example where our algorithm worked well is when the inputs were ___, leading to a correct prediction of ___ because ___.
+One example where our algorithm worked well is when the inputs were what type of penguins we , leading to a correct prediction of Gentoo in class 3 because we had 33 right.
 
-An example where the algorithm did not perform as expected is when the inputs were ___, resulting in a prediction of ___ instead of ___, which may have happened because ___.
+An example where the algorithm did not perform as expected is when the inputs were correct, resulting in a prediction of none wrong with gentoos instead of Chinstrap, which may have happened because of a harder way to classify them.
 
-These examples of success and failure highlight patterns in the data or limitations in our rules, such as ___.
+These examples of success and failure highlight patterns in the data or limitations in our rules, such as Gentoo in class 3.
 
 <img width="315" height="334" alt="image" src="https://github.com/user-attachments/assets/23ee1e49-da76-47c2-97b8-c8fbcbef179c" />
 
 ## Machine Learning Model
 
-We chose a value of k = ___ after comparing model performance across different values of k and observing that ___.
+We chose a value of k = 1 after comparing model performance across different values of k and observing that it gets very hard to identify penguins after that because they need specific classifications.
 
-When analyzing the outputs and metrics, we noticed that changing k affected ___, which influenced our final choice.
+When analyzing the outputs and metrics, we noticed that changing k affected how many penguins are in certain groups, which influenced our final choice.
 
-Based on the results shown in the tables or visualizations, k = ___ best matched our goals for model performance because ___.
+Based on the results shown in the tables or visualizations, k = 1 best matched our goals for model performance because it was the most accurate way.
 
 ### Confusion Matrix
 
@@ -90,11 +90,11 @@ Accuracy: 71%
 | **Chinstrap**       |  17       |   4     |   0     |
 | **Gentoo**       |     0    |     0    |    37     |
 
-The table/visualization shows a clear pattern where the model predicts ___ when ___, indicating a strong relationship between these features.
+The table/visualization shows a clear pattern where the model predicts penguins when they have certain beak sizes, indicating a strong relationship between these features.
 
-The confusion matrix reveals that the model most often confuses ___ with ___, suggesting these classes have similar feature values.
+The confusion matrix reveals that the model most often confuses Chinstrap penguins with Adelie, suggesting these classes have similar feature values.
 
-Compared to the human algorithm, the KNN model shows different behavior when ___, as seen in the ___ visualization.
+Compared to the human algorithm, the KNN model shows different behavior when we give it the data, as seen in the all visualization.
 
 <img width="315" height="334" alt="image" src="https://github.com/user-attachments/assets/199ae59d-3470-40c6-9669-60e62b211619" />
 
