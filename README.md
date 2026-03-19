@@ -18,24 +18,28 @@ You may work alone or with a partner. You may choose to work with the provided P
 ---
 
 **Team Members:**  
-- Name 1  
-- Name 2 (if applicable)  
+- Name 1  Jesse Rhodes
+- Name 2 Landon Chittum 
 
 **Dataset Used:**  
-(e.g. Penguins, Iris, Titanic, etc.)
+Penguins
 
 **Source:**  
-(UCI / Kaggle / Provided dataset)
+Provided Dataset
 
 **Target Variable (What we are predicting):**  
-(e.g. species, survival, diagnosis)
+Species
 
 **Features Used:**  
 - Feature 1  
 - Feature 2  
 - Feature 3
 
-**[Video Review](https://)**
+**[Video Review] https://www.youtube.com/watch?v=4dT1MyDw_RA (Our video)
+
+GRAPHS
+
+https://docs.google.com/document/d/1jL0wlDWOKum5R6o97Jhx4hXnQ7HrSbDRVuCG8MVIFpM/edit?usp=sharing **
 
 ## Human Algorithm
 
@@ -44,11 +48,11 @@ You may work alone or with a partner. You may choose to work with the provided P
 Write your human decision rules here.
 ```
 
-When examining the data and visualizations, we focused on the features ___ and ___ because ___.
+When examining the data and visualizations, we focused on the features Culmen Length and Culmen Depth because thats how we define the penguins.
 
-The plots/tables suggested a possible threshold for ___, and we considered values above or below this point to see how they might relate to ___.
+The plots/tables suggested a possible threshold for their culmen length , and we considered values above or below this point to see how they might relate to the types of penguins there are.
 
-From the summary tables and visualizations, it appeared that ___ could influence classification, which led us to ___ in our decision rules.
+From the summary tables and visualizations, it appeared that culmen length could influence classification, which led us to which species our penguins are in our decision rules.
 
 ### Confusion Matrix
 
@@ -78,13 +82,13 @@ Based on the results shown in the tables or visualizations, k = ___ best matched
 
 ### Confusion Matrix
 
-Accuracy: ?
+Accuracy: 71%
 
-| Actual \ Predicted | Class 1 | Class 2 | Class 3 |
+| Actual \ Predicted | Adelie | Chinstrap | Gentoo |
 |-------------------|---------|---------|---------|
-| **Class 1**       |         |         |         |
-| **Class 2**       |         |         |         |
-| **Class 3**       |         |         |         |
+| **Adelie**       |    33     |    12     |   0      |
+| **Chinstrap**       |  17       |   4     |   0     |
+| **Gentoo**       |     0    |     0    |    37     |
 
 The table/visualization shows a clear pattern where the model predicts ___ when ___, indicating a strong relationship between these features.
 
@@ -93,3 +97,5 @@ The confusion matrix reveals that the model most often confuses ___ with ___, su
 Compared to the human algorithm, the KNN model shows different behavior when ___, as seen in the ___ visualization.
 
 <img width="315" height="334" alt="image" src="https://github.com/user-attachments/assets/199ae59d-3470-40c6-9669-60e62b211619" />
+
+

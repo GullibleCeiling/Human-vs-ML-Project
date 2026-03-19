@@ -8,11 +8,11 @@ import sys
 
 
 def get_penguins_data():
-    file_path = '/workspaces/Human-vs-ML-Project/protect/data/penguins_size.csv'
+    file_path = '/workspaces/Human-vs-ML-Project/project/data/penguins_size.csv'
 
     df = pd.read_csv(file_path)
     
-    target_name = df["species"] 
+    target_name = "species" 
    
     x= df["culmen_depth_mm"]
     

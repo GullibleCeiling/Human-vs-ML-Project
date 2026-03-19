@@ -2,8 +2,8 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
-from protect.human_alg.human_classify import human_classify
-from protect.data.fetch_data import get_penguins_data
+from project.human_alg.human_classify import human_classify
+from project.data.fetch_data import get_penguins_data
 from sklearn.model_selection import train_test_split
 
 
